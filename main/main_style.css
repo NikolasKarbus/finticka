@@ -8,5 +8,42 @@
 
 h2 {
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 50px;
+}
+
+span {
+    background: linear-gradient(#5EC572, #F8E84E);
+    background-clip: text;
+    color: transparent;
+    font-family: "Coolvetica", sans-serif;
+}
+
+input {
+  width: 200px;
+  height: 45px;
+  border: solid 2px black;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+input:hover {
+  width: 202px;
+  height: 47px;
+  transition: 1s;
+}
+
+.plus {
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: white;
+  transition: 1s;
+}
+
+.plus:hover {
+  width: 47px;
+  height: 47px;
+  background-color: black;
+  color: white;
+  transition: 1s;
 }
