@@ -3,6 +3,8 @@
   font-weight: 500;
   font-style: bold;
   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -13,7 +15,7 @@ p {
     margin: 2%;
     word-spacing: 2px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h1{
@@ -39,7 +41,7 @@ h2{
 
 hr {
   border: none;
-  height: 5px;
+  height: 1px;
   border: 2px;
   border-radius: 5px;
   color: #333; 
@@ -53,4 +55,51 @@ span {
     background-clip: text;
     color: transparent;
     font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .box1{
+    margin-top: 2px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box2{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin-top: 50%;
+    width: 112px;
+    height: 50px;
+    border: solid 2px; 
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.info:hover {
+    transition: 1s;
+    background-color: black;
+    color: white;
+    width: 115px;
+    height: 53px;
 }
